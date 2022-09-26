@@ -6,7 +6,7 @@ li = document.createElement("li")
 helpButton = document.createElement("a")
 helpButton.className = "nav-link"
 helpButton.innerHTML = "Hjælp"
-helpButton.href = `${browser.runtime.getURL("help.html")}`
+helpButton.href = `${chrome.runtime.getURL("help.html")}`
 
 li.appendChild(helpButton)
 

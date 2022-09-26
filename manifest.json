@@ -12,19 +12,22 @@
 		"48": "icon.png",
 		"96": "icon.png"
 	},
-	"browser_action":{
+	"action":{
+		"default_popup": "help.html",
 		"default_icon":{
 		  "19":"icon.png",
 		  "38":"icon.png"
 		}
 	},
+	"options_page": "help.html",
 	"background":{
-        "scripts":["background.js"]
+        "service_worker":"background.js"
 	},
 	"permissions":[
 		"tabs"
 	],
-	"web_accessible_resources":[
-		"help.html"
-	]
+	"web_accessible_resources":[{
+		"resources": ["help.html"],
+		"matches": ["*://*.borger.dk/*"]
+	}]
 }
