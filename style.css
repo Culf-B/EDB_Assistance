@@ -1,0 +1,39 @@
+*{
+    margin:0px;
+    padding:0px;
+	min-width: 0px;
+}
+.top {
+	text-align: center;
+	background-color:black;
+	color: white;
+}
+.passwordContainer{
+	font-size: large;
+	border: 1px solid black;
+}
+#logo {
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+main {
+	display: flex;
+	width:100%;
+	flex-grow:1;
+	flex-direction:column;
+	justify-content:space-evenly;
+}
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+	width:100%;
+	text-align: center;
+}
+h1 {
+	font-size: 100px;
+}
+a {
+	text-decoration: none;
+	font-size: x-large;
+}

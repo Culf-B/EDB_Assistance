@@ -10,5 +10,4 @@ helpButton.href = `${chrome.runtime.getURL("help.html")}`
 
 li.appendChild(helpButton)
 
-
 document.getElementsByClassName("navbar-nav")[0].prepend(li)
